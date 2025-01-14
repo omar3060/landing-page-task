@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="landing page task" />
+    <title>Document</title>
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google fonts => mona sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- For animations -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Our style file -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Start Header shapes + nav -->
+    <header class="svg-shape">
+      <!-- Start Shapes -->
+      <div class="shapes">
+        <img src="/assets/imgs/SVGs/svg.png" alt="first svg" class="svg" data-aos="fade-right" data-aos-duration="1000"/>
+        <div class="dots-1"></div>
+        <div class="dots-2"></div>
+        <div class="random-shapes">
+          <div class="shape triangle triangle-1"></div>
+          <div class="shape triangle triangle-2"></div>
+          <div class="shape triangle triangle-3"></div>
+          <div class="shape circle circle-1"></div>
+          <div class="shape circle circle-2"></div>
+          <div class="shape circle circle-3"></div>
+          <div class="shape triangle triangle-4"></div>
+          <div class="shape triangle triangle-5"></div>
+          <div class="shape triangle triangle-6"></div>
+          <div class="shape circle circle-4"></div>
+          <div class="shape circle circle-5"></div>
+          <div class="shape circle circle-6"></div>
+        </div>
+      </div>
+      <!-- End Shapes -->
+      <div class="container">
+        <a href="#" class="nav-left"> Logo </a>
+        <nav class="nav-right">
+          <ul>
+            <li><a href="#">Get Started Now</a></li>
+          </ul>
+          <button><a href="#" style="text-decoration: none">Login</a></button>
+        </nav>
+      </div>
+    </header>
+    <!-- end Header shapes + nav -->
+    <!-- start hero section -->
+    <section class="hero-section">
+      <div class="box box-1" data-aos="slide-right" data-aos-duration="1000">
+        <div class="image-wrapper">
+          <img src="/assets/imgs/avatar/avatar-1.webp" alt="avatar-1" />
+        </div>
+        <div class="details">
+          <h3>James Bruno</h3>
+          <p>Digital Marketer</p>
+        </div>
+      </div>
+      <div class="hero container">
+        <div class="hero-left">
+          <img src="./assets/imgs/hero-img.png" alt="Hero-image"/>
+        </div>
+        <div class="hero-right">
+          <h1>We Help You Build & Grow an Online Business</h1>
+          <form>
+            <input
+              type="text"
+              placeholder="Tell us what you need to build..."
+              required
+            />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end hero section -->
+    <!-- start companies -->
+    <section>
+      <div class="companies container">
+        <div class="companies-left">Companies we've helped build</div>
+        <div class="companies-right">
+          <img
+            src="./assets/imgs/companies/company-1.png"
+            alt="company-1"
+            loading="lazy"
+          />
+          <img
+            src="./assets/imgs/companies/company-2.png"
+            alt="company-2"
+            loading="lazy"
+          />
+          <img
+            src="./assets/imgs/companies/company-3.png"
+            alt="company-3"
+            loading="lazy"
+          />
+          <img
+            src="./assets/imgs/companies/company-4.png"
+            alt="company-4"
+            loading="lazy"
+          />
+          <img
+            src="./assets/imgs/companies/company-5.png"
+            alt="company-5"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end companies -->
+    <!-- start products -->
+    <section>
+      <div class="container products">
+        <div class="products-left">
+          <h3>WE HELP YOU</h3>
+          <h2>
+            Sell<br />
+            Stunning <br />Products
+          </h2>
+          <p>
+            We'll guide you through our unique 5-step brand-building framework
+          </p>
+          <div class="details-button" >
+            <button data-aos="fade-left" data-aos-duration="200">MORE DETAILS</button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="products-right">
+          <div class="box box-1">
+            <h3>Minimal Chair</h3>
+            <hr />
+            <div class="details">
+              <span class="price"> $204.00 </span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+          <div class="box box-2">
+            <h3>Beats Headphone</h3>
+            <hr />
+            <div class="details">
+              <span class="price"> $204.00 </span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end products -->
+    <!-- start services -->
+    <section id="services">
+      <div class="svg-shape">
+        <img
+          src="/assets/imgs/SVGs/svg-2.png"
+          alt="svg"
+          class="svg"
+          loading="lazy"
+          data-aos="fade-right" data-aos-duration="1000"
+        />
+      </div>
+      <div class="container services">
+        <div class="card">
+          <img
+            src="/assets/imgs/services/services-1.webp"
+            alt="services-1"
+            loading="lazy"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h2>FASHION STORE</h2>
+          <p>
+            Shop ladies fashion at Missguided USA. With hundreds of new styles
+            hitting our shelves every week.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/imgs/services/services-2.jpg"
+            alt="services-2"
+            loading="lazy"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h2>HOME FURNITURE</h2>
+          <p>
+            Provides superior quality furniture and mattresses at a price that
+            customers can easily afford.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="/assets/imgs/services/services-3.jpg"
+            alt="services-3"
+            loading="lazy"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          />
+          <h2>SUPER GADGET STORE</h2>
+          <p>
+            Specialize in selling unique gifts, cool gadgets, outdoor gear and
+            fab toys.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container about">
+        <div class="about-left">
+          <div class="box box-1">
+            <div class="wave">
+              <img
+                src="/assets/imgs/WAVEs/wave-1.png"
+                alt="wave-1"
+                loading="lazy"
+              />
+            </div>
+            <div class="image-wrapper">
+              <img
+                src="/assets/imgs/avatar/avatar-1.webp"
+                alt="avatar-1"
+                loading="lazy"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              />
+            </div>
+            <div class="revenue">
+              <div class="price">
+                <h3>$ 7,654</h3>
+                <i class="fa-solid fa-arrow-up"></i>
+              </div>
+              <p>TOTAL REVENUE<span> +$232</span></p>
+            </div>
+          </div>
+          <div class="box box-2">
+            <div class="wave">
+              <img
+                src="/assets/imgs/WAVEs/wave-2.png"
+                alt="wave-2"
+                loading="lazy"
+              />
+            </div>
+            <div class="revenue">
+              <div class="price">
+                <h3>$ 9,978</h3>
+                <i class="fa-solid fa-arrow-up"></i>
+              </div>
+              <p>TOTAL REVENUE<span> +$322</span></p>
+            </div>
+            <div class="image-wrapper">
+              <img
+                src="/assets/imgs/avatar/avatar-2.webp"
+                alt="avatar-2"
+                loading="lazy"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="about-right">
+          <h3>WHAT WE DO</h3>
+          <h2>
+            Increase our<br />
+            Customers <br />Sales
+          </h2>
+          <p>
+            Our customers are seeing big results within the first three months
+          </p>
+          <div class="details-button">
+            <button data-aos="fade-left" data-aos-duration="1000">
+              MORE DETAILS
+            </button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- start contact -->
+    <section id="contact">
+      <div class="svg-shape">
+        <img
+          src="/assets/imgs/SVGs/svg-3.png"
+          alt="svg"
+          class="svg"
+          loading="lazy"
+        />
+      </div>
+      <div class="contact container">
+        <div class="contact-left">
+          <form>
+            <h2>Write Us</h2>
+            <div class="mail">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="text" placeholder="Enter your email" required />
+            </div>
+            <div class="message">
+              <i class="fa-solid fa-message"></i>
+              <textarea
+                name="messgae"
+                id="message"
+                placeholder="Enter your message"
+                rows="7"
+              ></textarea>
+            </div>
+            <button type="submit" data-aos="fade-left" data-aos-duration="600">SEND YOUR MESSGAE</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <img
+            src="./assets/imgs/contact-img.png"
+            alt="Hero-image"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
